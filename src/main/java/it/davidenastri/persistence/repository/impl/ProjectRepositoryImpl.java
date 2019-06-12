@@ -18,7 +18,15 @@ public class ProjectRepositoryImpl implements IPRojectRepository {
 
     @Override
     public Project save(Project project) {
-        return null;
+
+        Project existingProject = findById(project.getId()).orElse(null);
+        if (existingProject == null){
+            projects.add(project);
+        } else {
+            projects.remove(existingProject);
+            projects.add(project);
+        }
+        return project;
     }
 
 }

@@ -10,9 +10,14 @@ public class Project {
     private LocalDate dateCreated;
 
     public Project(Long id, String name, LocalDate dateCreated) {
+        super();
         this.id = id;
         this.name = name;
         this.dateCreated = dateCreated;
+    }
+
+    public Project(Project project){
+        this(project.getId(), project.getName(), project.getDateCreated());
     }
 
     public Long getId() {
