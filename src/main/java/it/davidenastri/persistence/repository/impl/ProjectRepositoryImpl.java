@@ -24,6 +24,7 @@ public class ProjectRepositoryImpl implements IPRojectRepository {
             projects.add(project);
         } else {
             projects.remove(existingProject);
+            Project newProject = new Project(project);
             projects.add(project);
         }
         return project;
