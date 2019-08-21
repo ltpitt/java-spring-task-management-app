@@ -8,7 +8,7 @@
 ## How to use
 
 - Clone this repo locally
-- Import this project as a Maven Project IntelliJ IDEA
+- Open the pom.xml project file with IntelliJ IDEA
 
 ## Meta
 
