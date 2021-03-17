@@ -1,3 +1,11 @@
+[![build](https://github.com/ltpitt/java-spring-task-management-app/workflows/build/badge.svg)](https://github.com/ltpitt/java-spring-task-management-app/actions?query=workflow%3Abuild)
+[![CodeQL](https://github.com/ltpitt/java-spring-task-management-app/workflows/CodeQL/badge.svg)](https://github.com/ltpitt/java-spring-task-management-app/actions?query=workflow%3ACodeQL)
+[![GitHub Issues](https://img.shields.io/github/issues-raw/ltpitt/java-spring-task-management-app)](https://github.com/ltpitt/java-spring-task-management-app/issues)
+[![Total Commits](https://img.shields.io/github/last-commit/ltpitt/java-spring-task-management-app)](https://github.com/ltpitt/java-spring-task-management-app/commits)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/4w/ltpitt/java-spring-task-management-app?foo=bar)](https://github.com/ltpitt/java-spring-task-management-app/commits)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ltpitt/java-spring-task-management-app/blob/master/LICENSE)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+
 # Java Spring Task Management App
 > This repo contains a Java Spring application for Task Management.
 
